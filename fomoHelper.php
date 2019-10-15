@@ -26,7 +26,7 @@
 
 class FomoHelper
 {
-    public function displayFomoWidget()
+    public static function displayFomoWidget()
     {
         $api_key = Configuration::get('FOMO_API_KEY', null);
 
