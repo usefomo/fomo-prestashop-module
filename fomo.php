@@ -161,9 +161,9 @@ class Fomo extends Module
                     array(
                         'col' => 3,
                         'type' => 'text',
-                        'desc' => $this->l('Enter a valid Fomo Auth Token'),
+                        'desc' => $this->l('Enter a valid Fomo Client ID'),
                         'name' => 'FOMO_API_KEY',
-                        'label' => $this->l('Auth Token'),
+                        'label' => $this->l('Client ID'),
                     ),
                     array(
                         'col' => 3,
