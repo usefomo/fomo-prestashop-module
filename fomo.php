@@ -161,14 +161,14 @@ class Fomo extends Module
                     array(
                         'col' => 3,
                         'type' => 'text',
-                        'desc' => $this->l('Enter a valid API KEY'),
+                        'desc' => $this->l('Enter a valid Fomo Auth Token'),
                         'name' => 'FOMO_API_KEY',
-                        'label' => $this->l('API KEY'),
+                        'label' => $this->l('Auth Token'),
                     ),
                     array(
                         'col' => 3,
                         'type' => 'text',
-                        'desc' => $this->l('Enter a valid Webhook URI'),
+                        'desc' => $this->l('Enter a valid Fomo Webhook URI'),
                         'name' => 'FOMO_WEBHOOK_URI',
                         'label' => $this->l('Webhook URI'),
                     )
